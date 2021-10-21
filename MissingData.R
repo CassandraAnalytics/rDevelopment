@@ -32,6 +32,7 @@ knn1 = VIM::kNN(data = mydata1,variable = mynames[1],k = 1)
 knn3 = VIM::kNN(data = mydata1,variable = mynames[1],k = 3)
 
 plot(knn1[,1:2],col= mycolors)
+plot(knn3[,1:2],col= mycolors)
 
 # MICE ####
 
